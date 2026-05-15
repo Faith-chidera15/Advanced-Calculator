@@ -11,13 +11,8 @@ body {
     -apple-system,
     BlinkMacSystemFont,
     sans-serif;
-  background-color: radial-gradient(
-    circle at top right,
-    #9fb4ff22,
-    transparent(45%),
-    #f3f5fb
-  );
   color: #f5f7ff;
+  background-image: linear-gradient(to bottom, #6c8dff, pink);
 }
 
 .app {
@@ -25,7 +20,16 @@ body {
   display: grid;
   place-items: center;
   padding: 20px;
+
   /* background-color: radial-gradient(blue, pink); */
+}
+
+.all {
+  /* border: 3px ridge #252c3f; */
+  border-radius: 20px;
+  box-shadow: 0 0 100px #252c3f;
+  padding: 20px;
+  background: #1f2333;
 }
 
 .display {
@@ -43,7 +47,7 @@ body {
   font-weight: 700;
 }
 .display::placeholder {
-  color: #a6b1d7;
+  color: lightcoral;
 }
 
 .keys {
